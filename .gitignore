@@ -58,3 +58,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Wwise files to ignore
+.cache
+*.akd
+*.prof
+*.validationcache
+*/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+*.wsettings
+.backup
